@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%
+}
+
+#verse3 {
+    font-family: "allotropic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px; 
+}
+
+#line1 {
+    cursor: default;
+    width: auto;
+    position: absolute;
+    top: 12%; 
+    left: 4%;
+    transition-duration: 4s;
+}
+
+#line2 {
+    cursor: default;
+    width: auto;
+    position: absolute;
+    top: 32%; 
+    left: 14%;
+    transition-duration: 4s;
+}
+
+#line3 {
+    cursor: default;
+    width: auto;
+    position: absolute;
+    top: 52%; 
+    left: 22%;
+    transition-duration: 4s;
+}
+
+#line4 {
+    cursor: default;
+    width: auto;
+    position: absolute;
+    top: 72%; 
+    left: 30%;
+    transition-duration: 4s;
+}
