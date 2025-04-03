@@ -7,6 +7,9 @@
 body {
     min-height: 100vh;
     width: 100%
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #verse1 {
@@ -14,56 +17,69 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 80px; 
+    position: relative;
+    height: 100vh;
+    width: 100%;
 }
 
-#line1 {
+h1 {
+    font-size: 80px;
     cursor: default;
     width: auto;
-    position: relative;
+    position: absolute;
     top: 12%; 
     left: 38%;
     transition-duration: 1s;
-    transform-origin: 12%;
+    transform-origin: center;
 }
 
-#line2 {
+h2 {
+    font-size: 80px;
     cursor: default;
     width: auto;
-    position: relative;
+    position: absolute;
     top: 32%; 
     left: 18%;
     transition-duration: 4s;
 }
 
-#line3 {
+h2 .solid {
+    display: inline-block;
+    position: relative;
+}
+
+h3 {
+    font-size: 80px;
     cursor: default;
     width: auto;
-    position: relative;
+    position: absolute;
     top: 52%; 
     left: 38%;
     transition-duration: 1s;
-    transform-origin: 12%;
+    transform-origin: center;
 }
 
-#line4 {
+h4 {
+    font-size: 80px;
     cursor: default;
     width: auto;
-    position: relative;
+    position: absolute;
     top: 72%; 
     left: 7%;
     transition-duration: 4s;
 }
 
-#verse1:hover #line1 {
+#verse1:hover h1 {
     transform: scale(1.5, 1.5);
 }
 
-#verse1:hover .solid {
+#verse1:hover h2 .solid {
     transform: translateY(20px);
     transition-delay: 1s;
+    
 }
 
-#verse1:hover #line3 {
+#verse1:hover h3 {
     transform: scale(1.5,1.5);
     transition-delay: 2s;
 }
