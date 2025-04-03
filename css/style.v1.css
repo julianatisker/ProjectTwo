@@ -103,10 +103,12 @@ h4 {
 
 #verse1:hover h1 {
     transform: scale(1.5, 1.5);
+    color: brown;
 }
 
 #verse1:hover h3 {
     transform: scale(1.5,1.5);
+    color: brown;
 }
 
 #verse1:hover .solid {
