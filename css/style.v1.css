@@ -101,6 +101,7 @@ h4 {
     transition-delay: 0s;
 }
 
+/*
 .go {
     display: inline-block;
     position: relative;
@@ -111,8 +112,14 @@ h4 {
     transition-timing-function: ease;
     transition-delay: 4s;
 }
+*/
 
-/* Hover */
+.go {
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 4s;
+}
 
 #verse1:hover h1 {
     transform: scale(1.5, 1.5);
