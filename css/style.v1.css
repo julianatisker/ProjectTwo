@@ -78,7 +78,6 @@ h4 {
 #verse1:hover h2 .solid {
     transform: translateY(20px);
     transition-delay: 1s;
-    display: inline-block;
 }
 
 #verse1:hover h3 {
