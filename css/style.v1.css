@@ -43,7 +43,7 @@ h2 {
     transition-duration: 4s;
 }
 
-h2 .solid {
+.solid {
     display: inline-block;
     position: relative;
     transition: transform 1s;
@@ -75,7 +75,7 @@ h4 {
     transform: scale(1.5, 1.5);
 }
 
-#verse1:hover h2 .solid {
+#verse1:hover .solid {
     transform: translateY(20px);
     transition-delay: 1s;
 }
