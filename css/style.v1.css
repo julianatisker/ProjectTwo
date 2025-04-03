@@ -80,9 +80,6 @@ h4 {
 }
 
 .solid {
-    display: inline-block;
-    position: relative;
-
     transform: translateY(0px);
     transition-property: transform;
     transition-duration: 1s;
@@ -96,19 +93,6 @@ h4 {
     transition-timing-function: ease;
     transition-delay: 0s;
 }
-
-/*
-.go {
-    display: inline-block;
-    position: relative;
-    opacity: 1;
-
-    transition-property: opacity;
-    transition-duration: 2s;
-    transition-timing-function: ease;
-    transition-delay: 4s;
-}
-*/
 
 .go {
     transition-property: opacity;
