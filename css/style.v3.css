@@ -16,7 +16,7 @@ body {
     font-size: 80px; 
 }
 
-#line1 {
+h1 {
     cursor: default;
     width: auto;
     position: absolute;
@@ -25,7 +25,7 @@ body {
     transition-duration: 4s;
 }
 
-#line2 {
+h2 {
     cursor: default;
     width: auto;
     position: absolute;
@@ -34,7 +34,7 @@ body {
     transition-duration: 4s;
 }
 
-#line3 {
+h3 {
     cursor: default;
     width: auto;
     position: absolute;
@@ -43,7 +43,7 @@ body {
     transition-duration: 4s;
 }
 
-#line4 {
+h4 {
     cursor: default;
     width: auto;
     position: absolute;
