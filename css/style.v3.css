@@ -9,6 +9,13 @@ body {
     width: 100%
 }
 
+body a {
+    text-decoration: none;
+    color: rgb(107, 154, 107);
+    cursor: crosshair;
+}
+
+
 #verse3 {
     font-family: "allotropic", sans-serif;
     font-weight: 400;
