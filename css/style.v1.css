@@ -202,9 +202,7 @@ body {
 h1 {
     font-size: 80px;
     cursor: default;
-    width: auto;
-
-    
+    width: auto;    
     transition-property: transform, color;
     transition-duration: 0.3s;
     transition-timing-function: ease;
@@ -216,8 +214,6 @@ h2 {
     font-size: 80px;
     cursor: default;
     width: auto;
-
-    
     transition-property: transform;
     transition-duration: 4s;
     transition-timing-function: ease;
@@ -228,8 +224,6 @@ h3 {
     font-size: 80px;
     cursor: default;
     width: auto;
-
-    
     transition-property: transform, color;
     transition-duration: 0.3s;
     transition-timing-function: ease;
@@ -241,8 +235,6 @@ h4 {
     font-size: 80px;
     cursor: default;
     width: 110%;
-
-    
     transition-property: transform;
     transition-duration: 4s;
     transition-timing-function: ease;
@@ -251,7 +243,6 @@ h4 {
 
 .solid {
     display: inline-block;
-
     transform: translateY(0px);
     transition-property: transform, color;
     transition-duration: 1s;
@@ -261,7 +252,6 @@ h4 {
 
 .moveR {
     display: inline-block;
-
     transition-property: transform;
     transition-duration: 1s;
     transition-timing-function: ease;
@@ -270,7 +260,6 @@ h4 {
 
 .moveL {
     display: inline-block;
-
     transition-property: transform;
     transition-duration: 1s;
     transition-timing-function: ease;
@@ -280,7 +269,6 @@ h4 {
 .come {
     display: inline-block;
     opacity: 0;
-
     transition-property: all;
     transition-duration: 1.5s;
     transition-timing-function: ease;
@@ -290,7 +278,6 @@ h4 {
 .go {
     display: inline-block;
     opacity: 1;
-
     transition-property: all;
     transition-duration: 1.5s;
     transition-timing-function: ease;

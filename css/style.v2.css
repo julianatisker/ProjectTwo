@@ -142,8 +142,7 @@ body {
     font-style: normal;
     display: flex;
     flex-direction: column;
-    
-    gap: 120px;
+    gap: 130px;
     height: 100vh;
     width: 100%;
     padding: 12%;
@@ -162,7 +161,6 @@ h2 {
     font-size: 80px;
     cursor: default;
     width: 130%;
-
     align-items: left; 
     justify-content: left;
     text-align: left;
@@ -170,7 +168,6 @@ h2 {
 
 .love {
     display: inline-block;
-
     transition-property: transform, color;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -179,7 +176,6 @@ h2 {
 
 .moveL {
     display: inline-block;
-
     transition-property: transform;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -188,7 +184,6 @@ h2 {
 
 .moveR {
     display: inline-block;
-
     transition-property: transform;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -197,7 +192,6 @@ h2 {
 
 .idea {
     display: inline-block;
-
     transition-property: transform, color;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -206,7 +200,6 @@ h2 {
 
 .moveL2 {
     display: inline-block;
-
     transition-property: transform;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -215,7 +208,6 @@ h2 {
 
 .moveR2 {
     display: inline-block;
-
     transition-property: transform;
     transition-duration: 2s;
     transition-timing-function: ease;
@@ -228,15 +220,15 @@ h2 {
 }
 
 #verse2:hover .moveL {
-    transform: translateX(-100px);
+    transform: translateX(-130px);
 }
 
 #verse2:hover .moveR {
-    transform: translateX(100px);
+    transform: translateX(130px);
 }
 
 #verse2:hover .idea {
-    transform: scale(3,3);
+    transform: scale(3,3) skew(-10deg, -10deg);
     color: rgb(241, 217, 96);
 }
 
