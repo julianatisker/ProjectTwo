@@ -6,71 +6,56 @@
 
 body {
     min-height: 100vh;
-    width: 100%
+    width: 100%;
+    display: flex;
 }
 
 #verse4 {
     font-family: "allotropic", sans-serif;
     font-weight: 400;
-    font-style: normal; 
-    position: relative;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
     height: 100vh;
     width: 100%;
+    padding: 2%;
 }
 
 h1 {
     font-size: 80px;
     cursor: default;
     width: auto;
-
-    position: absolute;
-    top: 2%; 
-    left: 4%;
-    transition-duration: 4s;
+    margin-left: 5px;
 }
 
 h2 {
     font-size: 80px;
     cursor: default;
     width: auto;
-    
-    position: absolute;
-    top: 22%; 
-    right: 4%;
-    transition-duration: 4s;
+    margin-left: 550px;
 }
 
 h3 {
     font-size: 80px;
     cursor: default;
     width: auto;
-    
-    position: absolute;
-    top: 42%; 
-    left: 4%;
-    transition-duration: 4s;
+    margin-left: 5px;
 }
 
 h4 {
     font-size: 80px;
     cursor: default;
     width: auto;
-
-    position: absolute;
-    top: 62%; 
-    right: 4%;
-    transition-duration: 4s;
+    margin-left: 310px;
 }
 
 h5 {
     font-size: 40px;
     cursor: default;
     width: auto;
-
-    position: absolute;
-    top: 82%; 
-    left: 30%;
-    transition-duration: 4s;
+    text-align: center;
 }
 
 /*transform: perspective(1000px) rotateX(720deg) scale(2);
