@@ -88,7 +88,7 @@ h5 {
     transition-property: transform, color;
     transition-duration: 1.2s;
     transition-timing-function: ease;
-    transition-delay: 3s;
+    transition-delay: 3.5s;
     transform-origin: center left;
 }
 
@@ -106,13 +106,12 @@ h5 {
     transition-property: all;
     transition-duration: 1.5s;
     transition-timing-function: ease;
-    transition-delay: 4s;
 }
 
 #verse4:hover h5 {
     transform: scale(1.1);
     color: rgb(241, 217, 96);
-    transition-delay: 6s;
+    transition-delay: 6.5s;
 }
 
 #verse4:hover .place {
@@ -141,7 +140,7 @@ h5 {
 #verse4:hover .starts {
     opacity: 1;
     transform: rotate(360deg) skew(-30deg);
-    transition-delay: 4s;
+    transition-delay: 4.5s;
     color: rgb(0, 30, 139);
 }
 
