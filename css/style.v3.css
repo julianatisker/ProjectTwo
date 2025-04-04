@@ -64,7 +64,97 @@ h4 {
     left: 30%;
 }
 
+.live {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform, color;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.you {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform, color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.live2 {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform, color;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.moveL {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+.moveL2 {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 4.5s;
+}
+
+.moveR {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 4.5s;
+}
+
 #verse3:hover h1 {
-    transform: scale(1.5, 1.5);
+    transform:  translateX(500px);
     color: brown;
+}
+
+#verse3:hover .live {
+    transform: perspective(1000px) rotateY(720deg) scale(2);
+    transition-delay: 2s;
+    color: rgb(241, 217, 96);
+}
+
+#verse3:hover .you {
+    transform: rotate(-90deg) scale(1.1);
+    transition-delay: 3s;
+    color: rgb(0, 30, 139);
+}
+
+#verse3:hover .live2 {
+    transform: perspective(1000px) rotateY(720deg) scale(2);
+    transition-delay: 4.5s;
+    color: rgb(241, 217, 96);
+}
+
+#verse3:hover .moveL {
+    transform: translateX(-100px);
+}
+
+#verse3:hover .moveL2 {
+    transform: translateX(-100px);
+}
+
+#verse3:hover .moveR {
+    transform: translateX(100px);
 }
