@@ -1,4 +1,4 @@
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -89,6 +89,132 @@ h2 {
 .moveR2 {
     display: inline-block;
     position: relative;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+#verse2:hover .love {
+    transform: scale(2,2) rotate(700deg) skew(20deg, 20deg);
+    color: brown;
+}
+
+#verse2:hover .moveL {
+    transform: translateX(-100px);
+}
+
+#verse2:hover .moveR {
+    transform: translateX(100px);
+}
+
+#verse2:hover .idea {
+    transform: scale(3,3);
+    color: rgb(241, 217, 96);
+}
+
+#verse2:hover .moveL2 {
+    transform: translateX(-150px);
+}
+
+#verse2:hover .moveR2 {
+    transform: translateX(150px);
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#verse2 {
+    font-family: "allotropic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 120px;
+    height: 100vh;
+    width: 100%;
+    padding: 12%;
+}
+
+h1 {
+    font-size: 80px;
+    cursor: default;
+    width: auto;
+    align-items: right; 
+    justify-content: right;
+    text-align: right;
+}
+
+h2 {
+    font-size: 80px;
+    cursor: default;
+    width: 130%;
+
+    align-items: left; 
+    justify-content: left;
+    text-align: left;
+}
+
+.love {
+    display: inline-block;
+
+    transition-property: transform, color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.moveL {
+    display: inline-block;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.moveR {
+    display: inline-block;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.idea {
+    display: inline-block;
+
+    transition-property: transform, color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+.moveL2 {
+    display: inline-block;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+.moveR2 {
+    display: inline-block;
 
     transition-property: transform;
     transition-duration: 2s;
