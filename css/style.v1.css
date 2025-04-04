@@ -96,15 +96,19 @@ h4 {
     position: relative;
     opacity: 0;
 
-    transition-property: opacity, color;
-    transition-duration: 3s;
+    transition-property: all;
+    transition-duration: 1.5s;
     transition-timing-function: ease;
     transition-delay: 0s;
 }
 
 .go {
-    transition-property: opacity, color;
-    transition-duration: 2s;
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+
+    transition-property: all;
+    transition-duration: 1.5s;
     transition-timing-function: ease;
     transition-delay: 5s;
 }
@@ -126,11 +130,13 @@ h4 {
 
 #verse1:hover .come {
     opacity: 1;
+    transform: rotate(720deg);
     transition-delay: 4s;
     color: rgb(0, 30, 139);
 }
 
 #verse1:hover .go {
     opacity: 0;
+    transform: rotate(720deg);
     color: rgb(0, 30, 139);
 }
