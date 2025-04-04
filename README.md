@@ -17,6 +17,7 @@ Interactive elements will be carried out using transform properties such as scal
 
 
 ## Aknowledgments
+The song used was "Live for You" by Thee Sacred Souls.
 
 Here is the link to check out Thee Sacred Souls' music!
 
