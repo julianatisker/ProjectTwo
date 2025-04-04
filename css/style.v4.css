@@ -58,5 +58,90 @@ h5 {
     text-align: center;
 }
 
-/*transform: perspective(1000px) rotateX(720deg) scale(2);
-    transition-delay: 3s;*/
+.place {
+    display: inline-block;
+    transition-property: transform, color;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+    transform-origin: center left;
+}
+
+.moveR {
+    display: inline-block;
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
+.neighbor {
+    display: inline-block;
+    transition-property: transform, color;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+.only {
+    display: inline-block;
+    transition-property: transform, color;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 3s;
+    transform-origin: center left;
+}
+
+.moveR2 {
+    display: inline-block;
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease;
+    transition-delay: 3s;
+}
+
+.starts {
+    display: inline-block;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+    transition-delay: 4s;
+}
+
+#verse4:hover h5 {
+    transform: scale(1.1);
+    color: rgb(241, 217, 96);
+    transition-delay: 6s;
+}
+
+#verse4:hover .place {
+    transform: perspective(1000px) rotateX(720deg) scale(1.5);
+    color: brown;
+}
+
+#verse4:hover .moveR {
+    transform: translateX(80px);
+}
+
+#verse4:hover .neighbor {
+    transform: skew(-20deg, 20deg) scale(.5);
+    color: rgb(0, 30, 139);
+}
+
+#verse4:hover .only {
+    transform: perspective(1000px) rotateX(720deg) scale(1.5);
+    color: brown;
+}
+
+#verse4:hover .moveR2 {
+    transform: translateX(80px);
+}
+
+#verse4:hover .starts {
+    opacity: 1;
+    transform: rotate(360deg) skew(-30deg);
+    transition-delay: 4s;
+    color: rgb(0, 30, 139);
+}
+
