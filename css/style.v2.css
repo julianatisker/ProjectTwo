@@ -13,23 +13,111 @@ body {
     font-family: "allotropic", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 80px;
+    padding: 20%;
 }
 
 h1 {
+    font-size: 80px;
     cursor: default;
     width: auto;
+
     position: absolute;
-    top: 32%; 
-    right: 10%;
-    transition-duration: 4s;
+    top: 22%; 
+    right: 12%;
 }
 
 h2 {
+    font-size: 80px;
     cursor: default;
     width: auto;
+
     position: absolute;
-    top: 52%; 
-    left: 10%;
-    transition-duration: 4s;
+    top: 62%; 
+    left: 12%;
+}
+
+.love {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform, color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.moveL {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.moveR {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.idea {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform, color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+.moveL2 {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+.moveR2 {
+    display: inline-block;
+    position: relative;
+
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+#verse2:hover .love {
+    transform: scale(2,2) rotate(700deg) skew(20deg, 20deg);
+    color: brown;
+}
+
+#verse2:hover .moveL {
+    transform: translateX(-100px);
+}
+
+#verse2:hover .moveR {
+    transform: translateX(100px);
+}
+
+#verse2:hover .idea {
+    transform: scale(3,3);
+    color: rgb(241, 217, 96);
+}
+
+#verse2:hover .moveL2 {
+    transform: translateX(-150px);
+}
+
+#verse2:hover .moveR2 {
+    transform: translateX(150px);
 }
